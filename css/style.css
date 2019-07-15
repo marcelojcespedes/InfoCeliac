@@ -603,70 +603,34 @@ hr.bold {
 --- Intro - home video
 ============================ */
 
-.morphext > span {
-	display: none;
-}
-
-.morphext > .animated {
-    display: inline-block;
-}
-
-#intro.home-video { 
-	position: relative; 
-	margin: 0 auto; 
-	text-align: center;
-	height: 0;
-	padding-top: 20%;
-	padding-bottom: 30%;
-	position: relative;
-	overflow: hidden;
-	
-}
-#intro.home-video .homevideo-container { height: 100%; width: 100%; position: absolute; z-index: 1; background-size: cover; }
-
-#intro.home-video .overlay { 
-	position: relative; 
-	height: 100%; 
-	z-index: 2; 
-	padding: 20% 0;
-
-}
-
-#intro.home-video .home-video-wrapper {
+.header-video  {
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
-	position: absolute;
-}
-
-.bs-video {
-	height: 0;
-	padding-top: 25px;
-	padding-bottom: 67.5%;
-	margin-bottom: 10px;
-	position: relative;
+	height: 100vh;
 	overflow: hidden;
 }
- 
-.bs-video.widescreen {
-	padding-bottom: 57.25%;
-}
- 
-.bs-video.vimeo {
-	padding-top: 0;
+
+.header-video video  {
+	min-width: 100%;
+	min-height: 100%;
 }
 
-.bs-video embed, .bs-video iframe, .bs-video object, .bs-video video {
+.header-overlay {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
-	position: absolute;
+	background: #303952;
+	z-index: 1;
+	opacity: .85;
 }
 
-.video-caption h1 {
-	text-transform: uppercase;
+.header-content h1  {
+	font-size: 50px;
+	font-family: "Lobster", cursive;
 }
 
 /* ===========================
