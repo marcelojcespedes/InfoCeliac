@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body></br><br>
+    <h1>Formulario de registro</h1>
+    <form action a href="registrar.php" method="POST" class="form-register" onsubmit="return validar ();">
+    <H2 class="form-titulo">CREAR CUENTA</H2>
+    <div class="contenedor-imputs">
+   <input type="text" id="nombre" placeholder="Ingrese su nombre" class="input-48" required>
+   <input type="text" id="apellido" placeholder="Ingrese su apellido" class="input-48" required>
+   <input type="email" id="correo" placeholder="Ingrese un correo" class="input-100" required>
+   <input type="name" id="usuario" placeholder="Usuario" class="input-48" required>
+   <input type="password" id="contraseña" placeholder="Contraseña" class="input-48" required>
+   <input type="number" id="telefono" placeholder="telefono" class="input-30" required>
+   <input type="date" id="fechadenacimiento" placeholder="DD/MM/AAAA" class="input-30" required>
+   <input type="submit" value="Registrar" class="btn-enviar" required>
+   <p class="form_link">Ya tienes cuenta?<a href="ingresar.php"> Ingresa Aqui</a></p>
+
+    </div>
+    </form>
+</body>
+</html>
