@@ -10,7 +10,9 @@ h1 { color: firebrick;
       -webkit-box-sizing: border;
       box-sizing: border-box;
   }
-
+.titulo{
+    background-color:firebrick;
+}
 .social {
     position: fixed;
     left: 0;
@@ -44,7 +46,9 @@ div#derecha { position: relative;
    height: 627px;}
 
    .menu {
-       position: relative;
+       position: absolute;
+       left:5px;
+       top:600px;
        bottom: 610px;
    }
 

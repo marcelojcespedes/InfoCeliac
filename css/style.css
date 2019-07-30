@@ -52,7 +52,7 @@ h6 {
     margin: 0 0 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-	color: #111;
+	color: #000;
 }
 
 h1.h-xlight,h2.h-xlight,h3.h-xlight ,h4.h-xlight ,h5.h-xlight ,h6.h-xlight  {
@@ -77,8 +77,8 @@ h1.font-light,h2.font-light,h3.font-light,h4.font-light,h5.font-light,h6.font-li
 }
 
 p {
-    margin: 0 0 20px;
-
+	margin: 0 0 20px;
+	background-color: #FF4136;
 }
 
 p.lead {
@@ -151,7 +151,7 @@ blockquote strong {
 
 /* ------- Navigation ------------ */
 #navigation {
-	background: #fff;
+	background-color: aqua;
 	z-index: 9999;
 	width:100%;
     box-sizing:border-box;
