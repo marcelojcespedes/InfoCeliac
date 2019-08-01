@@ -1,0 +1,56 @@
+body{
+    background-color: cornsilk;
+}
+*{
+    margin: 0px;
+    padding: 0px;}
+
+    div#general{
+ margin: auto;
+ margin-top: 10px;
+width: 1328px;
+height: auto;
+background-color: cornsilk;
+    }
+
+div#celiaquia{
+    height:auto;
+    width: 1100px;
+   background-color: cornsilk;
+}
+div#tabla{
+    float: right;
+    height: auto;
+    width: 228px;
+    background-color:cornsilk;
+}
+
+h1.titulo {
+    text-align: center;
+    color: rgb(6, 88, 88);
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+table {
+    background-color: rgb(235, 227, 197);
+    text-align: left;
+    border-collapse: collapse;
+    width: 228px;
+}
+th, td{
+    border: solid 1px black;
+    padding: 15px;
+}
+thead {
+    background-color: cornsilk;
+    border-bottom: solid 5px ;
+    color:cornsilk;
+}
+tr:nth-child(even){
+    background-color:aquamarine;
+}
+tr:hover{
+background-color: mediumspringgreen;
+}
