@@ -13,7 +13,7 @@ body {
     height: 100%;
     font-family: 'Lato',sans-serif;
 	font-weight: auto;
-    color: #666;
+    color: rgb(102, 102, 102);
     background-color: #fff;
 	font-size: 1rem;
     line-height: 1.6em;
@@ -50,7 +50,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Berlin Sans FB';
     font-weight: 400;
 	color: #111;
 }
