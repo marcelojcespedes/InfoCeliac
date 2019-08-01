@@ -151,7 +151,7 @@ blockquote strong {
 
 /* ------- Navigation ------------ */
 #navigation {
-	background-color: aqua;
+	background-color: #b8262a;
 	z-index: 9999;
 	width:100%;
     box-sizing:border-box;
@@ -1427,8 +1427,8 @@ Parallax
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
-    0 {
+@-webkit-keyframes pulse {  
+	  
         -webkit-transform: scale(1);
         transform: scale(1);
     }
